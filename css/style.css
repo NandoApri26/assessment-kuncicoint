@@ -86,7 +86,9 @@ body {
   color: #999999;
 }
 #Berita .isi h5,
-#Berita .isi p {
+#Berita .isi-pilihan h5,
+#Berita .isi p,
+#Berita .isi-pilihan p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -107,4 +109,52 @@ body {
   font-size: 14px;
   font-weight: normal;
 }
+
+/* Akhir Berita PIlihan */
+#Berita .bg-berita-pilihan {
+  margin-top: 30px;
+  background-color: #1c658c;
+}
+#Berita .Judul-Pilihan h4 {
+  color: #9ad0ec;
+  font-size: 18px;
+  margin: 10px 25px;
+}
+#Berita .bg-berita-pilihan img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+#Berita .isi-pilihan h5 {
+  font-size: 10px;
+}
+#Berita .isi-pilihan p {
+  font-size: 12px;
+  font-weight: normal;
+}
+#Berita .isi-pilihan a {
+  text-decoration: none;
+  color: #9ad0ec;
+}
+#Berita .isi-pilihan a:hover {
+  text-decoration: none;
+  color: white;
+}
+/* Akhir Berita Pilihan*/
 /* Akhir Berita */
+
+/* Awal Footer */
+#Footer .bg-footer {
+  background-color: #c2c2c2;
+}
+#Footer .bg-footer h6 {
+  font-family: poppins;
+  color: #1c658c;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Footer .bg-footer i {
+  font-family: poppins;
+}
+/* Akhir Footer */
