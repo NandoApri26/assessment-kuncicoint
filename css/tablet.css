@@ -3,5 +3,65 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #c2d4df !important;
+    font-family: poppins !important;
   }
+
+  /* Awal Header */
+  #Header .navbar {
+    background-color: #1c658c;
+  }
+  #Header .navbar img {
+    width: 30px;
+    height: auto;
+  }
+  #Header .navbar a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+  }
+  #Header .navbar a:hover {
+    color: #9ad0ec;
+  }
+  #Header .search input {
+    background-color: #9ad0ec;
+    font-size: 12px;
+    width: 335px;
+    height: 40px;
+    margin-left: 0px;
+    border-radius: 7px;
+    margin-top: 20px;
+  }
+  #Header .search button {
+    border: 2px solid #9ad0ec;
+    color: #9ad0ec;
+    border-radius: 7px;
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+  }
+  #Header .search button:hover {
+    border: 2px solid white;
+    color: #1c658c;
+    background-color: #9ad0ec;
+  }
+  #Header .login {
+    border: 2px solid #9ad0ec;
+    color: #9ad0ec;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+  }
+  #Header .login:hover {
+    border: 2px solid white;
+    background-color: #9ad0ec;
+    color: #1c658c !important;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+  }
+  /* Akhir Header */
 }
