@@ -225,6 +225,22 @@
   }
   /* Akhir Login */
 
+  /* Awal Register */
+  #Register .btn {
+    margin-left: 125px;
+    border: 2px solid #79dae8;
+    color: #79dae8;
+    margin-top: 40px;
+  }
+  #Register .btn:hover {
+    margin-left: 125px;
+    background-color: #79dae8;
+    border: 2px solid white;
+    color: white;
+    margin-top: 40px;
+  }
+  /* Akhir Register */
+
   /* Awal Footer */
   #Footer .bg-footer {
     margin-top: 20px;
